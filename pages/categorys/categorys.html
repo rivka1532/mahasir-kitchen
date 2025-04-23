@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מה בסיר - אתר המתכונים המוביל בישראל</title>
+    <link rel="stylesheet" href="/pages/header&footer/header&footer.css">
+    <link rel="stylesheet" href="/pages/recipes/recipes.css">
+</head>
+<body>
+    <header>
+        <div id="backDiv"></div>
+        <nav>
+            <h1>כל המתכונים</h1>
+            <h2>קטגוריות</h2>
+            <div id="c"></div>
+            <h2>רמת קושי</h2>
+            <div id="l"></div>
+            <h2>כשרות</h2>
+            <div id="k"></div>
+        </nav>
+        <button id="category">קטגוריות</button>
+        <a href="/pages/buyList/buyList.html" id="list">רשימת קניות</a>
+        <img src="/images/styleImages/לוגו.png" alt="" id="logo">
+        <input type="text" placeholder="חפשו מתכון בעמוד זה" id="search">
+        <h3 id="name">שלום <span id="spanname"></span></h3>
+        <img src="/images/styleImages/לב ריק.png" alt="" id="lev" title="למתכונים שאהבתי">
+    </header>
+    <section>
+        <h1></h1>
+        <h2></h2>
+        <div id="allRecipes"></div>
+    </section>
+    <footer>
+        <div>
+            <img src="/images/styleImages/לוגו לבן.png" alt="">
+            <p>הרשמו לניוזלטר<br>והשארו מעודכנים</p>
+            <form>
+                <input type="email">
+                <button type="submit">שלח</button><br>
+            </form>
+            <p>בהצטרפות לניוזלטר הנני מאשר/ת קבלת תוכן פרסומי</p>
+        </div>
+    </footer>
+    <script src="/packages/jquery-3.2.1.js"></script>
+    <script src="/pages/header&footer/header&footer.js"></script>
+    <script src="/pages/categorys/categorys.js"></script>
+</body>
+<style>
+    section h1,section h2{
+        text-align: center;
+        color: #2d3056;
+    }
+    section h2{
+       margin-inline: 25%;
+       line-height: 1.5;
+       font-weight: 400;
+    }
+    section h1{
+        font-size: 50px;
+    }
+</style>
+</html>

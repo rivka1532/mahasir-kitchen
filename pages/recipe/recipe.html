@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מה בסיר - אתר המתכונים המוביל בישראל</title>
+    <link rel="stylesheet" href="/pages/header&footer/header&footer.css">
+    <link rel="stylesheet" href="/pages/recipe/recipe.css">
+</head>
+
+<body>
+    <header>
+        <div id="backDiv"></div>
+        <nav>
+            <h1>כל המתכונים</h1>
+            <h2>קטגוריות</h2>
+            <div id="c"></div>
+            <h2>רמת קושי</h2>
+            <div id="l"></div>
+            <h2>כשרות</h2>
+            <div id="k"></div>
+        </nav>
+        <a href="/pages/love/love.html"></a>
+        <button id="category">קטגוריות</button>
+        <a href="/pages/buyList/buyList.html" id="list">רשימת קניות</a>
+        <!-- <img src="/images/לוגו.png" alt="" id="logo"> -->
+        <a href="/pages/index/index.html"><img src="/images/styleImages/לוגו.png" alt="" id="logo"></a>
+        <input type="text" placeholder="חפשו מתכון בעמוד זה" id="search">
+        <h3 id="name">שלום <span id="spanname"></span></h3>
+        <img src="/images/styleImages/לב ריק.png" alt="" id="lev" title="למתכונים שאהבתי">
+    </header>
+    <section>
+        <div id="imgRecipe">
+            <img src="" alt="" id="imageRecipe">
+            <a href=""><img src="/images/styleImages/לב ריק.png" class="heart"></a><br>
+            <h1 id="recipe">מתכון</h1>
+            <h1 id="nameResipe"></h1>
+        </div>
+        <div id="P">
+            <h2 id="productsNeed"></h2>
+            <p>סמן מוצרים להוספה לרשימת קניות</p>
+            <ul id="products"></ul>
+            <a href="/pages/parse/parse.html">המרת מידות ומשקולות</a>
+        </div>
+        <div id="I">
+            <h2 id="instructionsHow"></h2>
+            <ul id="instructions"></ul>
+        </div>
+        <div id="taimer">
+            <h1><img src="/images/styleImages/טיימר.png" alt=""> הפעל טיימר לפי זמן הכנה</h1>
+            <div>
+                <img src="/images/styleImages/עצור.png" alt="" id="stop">
+                <div id="seconds">
+                    <img src="/images/styleImages/חץ לבן למעלה.png" alt="" class="up">
+                    <p>00</p>
+                    <img src="/images/styleImages/חץ למטה לבן.png" alt="" class="down">
+                </div>
+                <p>:</p>
+                <div id="minutes">
+                    <img src="/images/styleImages/חץ לבן למעלה.png" alt="" class="up">
+                    <p>00</p>
+                    <img src="/images/styleImages/חץ למטה לבן.png" alt="" class="down">
+                </div>
+                <p>:</p>
+                <div id="houers">
+                    <img src="/images/styleImages/חץ לבן למעלה.png" alt="" class="up">
+                    <p>00</p>
+                    <img src="/images/styleImages/חץ למטה לבן.png" alt="" class="down">
+                </div>
+                <img src="/images/styleImages/הפעל.png" alt="" id="start">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <img src="/images/styleImages/לוגו לבן.png" alt="">
+            <p>הרשמו לניוזלטר<br>והשארו מעודכנים</p>
+            <form>
+                <input type="email">
+                <button type="submit">שלח</button><br>
+            </form>
+            <p>בהצטרפות לניוזלטר הנני מאשר/ת קבלת תוכן פרסומי</p>
+        </div>
+    </footer>
+    <script src="/packages/jquery-3.2.1.js"></script>
+    <script src="/pages/recipe/recipe.js"></script>
+    <script src="/pages/timer/taymer.js"></script>
+    <script src="/pages/header&footer/header&footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+#op{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#op>img{
+    width: 290px;
+    height: 200px;
+}
+
+#koteret{
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #212529;
+}
+
+#back{
+    width: 645px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+#weekRecipe{
+    background-color: rgba(45, 48, 86, 0.8);
+    width: 330px;
+    min-width: max-content;
+    border-radius: 10px 0px 0px 10px;
+    transform: translateY(40px);
+    padding-inline: 15px;
+    padding-top: 5px;
+}
+#star{
+    font-size: 32px;
+    position: absolute;
+    top: -15px;
+    right: 155px;
+    z-index: 2;
+}
+#weekRecipe h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin:0%;
+}
+#n{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 1%;
+    min-width: max-content;
+}
+#weekRecipe p{
+    color: white;
+    padding: 10px 175px 10px 0px;
+    font-size: 20px;
+    text-align: right;
+}
+#weekRecipe p:first-line{
+    font-size: 15px;
+}
+#weekRecipe img{
+    top: 115px;
+    right: 90px;
+}
+#topPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+#topPage>img{
+    width: 455px;
+    margin-right: 2%;
+}
+#back a{
+    color: white;
+    text-decoration: none;
+    background-color: #e64f3c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 65px;
+    font-size: 23px;
+}
+#back a span{
+    font-size: 18px;
+}
+#taimer, .a{
+    background-image: url(/images/styleImages/הפעל\ טיימר\ -\ מתוקן.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 200px;
+}
+#taimer div div img{
+    width: 15px;
+}
+#taimer>div>img{
+    margin: 5px;
+    width: 40px;
+}
+#taimer div div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#taimer>div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10px; */
+}
+#taimer div div p{
+    background-color: #1d2048;
+    font-size: 25px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0px;
+}
+#taimer div p{
+    font-size: larger;
+    color: white;
+}

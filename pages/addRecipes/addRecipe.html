@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מה בסיר - אתר המתכונים המוביל בישראל</title>
+    <link rel="stylesheet" href="/pages/header&footer/header&footer.css">
+    <link rel="stylesheet" href="/pages/addRecipes/addRecipe.css">
+</head>
+
+<body>
+    <header>
+        <div id="backDiv"></div>
+        <nav>
+            <h1>כל המתכונים</h1>
+            <h2>קטגוריות</h2>
+            <div id="c"></div>
+            <h2>רמת קושי</h2>
+            <div id="l"></div>
+            <h2>כשרות</h2>
+            <div id="k"></div>
+        </nav>
+        <a href="/pages/love/love.html"></a>
+        <button id="category">קטגוריות</button>
+        <a href="/pages/buyList/buyList.html" id="list">רשימת קניות</a>
+        <!-- <img src="/images/לוגו.png" alt="" id="logo"> -->
+        <a href="/pages/index/index.html"><img src="/images/styleImages/לוגו.png" alt="" id="logo"></a>
+        <!-- <input type="text" placeholder="חפשו מתכון בעמוד זה" id="search"> -->
+        <h3 id="name">שלום <span id="spanname"></span></h3>
+        <img src="/images/styleImages/לב ריק.png" alt="" id="lev" title="למתכונים שאהבתי">
+    </header>
+    <section>
+        <form action="">
+            <h1>הוספת מתכון חדש</h1>
+            <div id="a">
+                <div>
+                    <label for="recipeName" class="text">מתכון ל</label>
+                    <input type="text" name="recipeName" id="recipeName" class="recipe text" required>
+                </div><br>
+                <div>
+                    <label for="description" class="text">תיאור המנה</label>
+                    <input type="text" name="description" id="description" class="recipe text" required>
+                </div>
+            </div>
+            <div id="b">
+                <div>
+                    <label for="kashrut" class="text">כשרות</label>
+                    <select name="kashrut" id="kashrut" required>
+                        <option value="1" class="kashrut text">כשר פרווה</option>
+                        <option value="2" class="kashrut text">כשר חלבי</option>
+                        <option value="3" class="kashrut text">כשר בשרי</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="categories" class="text">קטגוריה</label>
+                    <select name="categories" id="categories" required>
+                        <option value="1" class="categories text">לחמים ומאפים</option>
+                        <option value="2" class="categories text">מנות עקריות</option>
+                        <option value="3" class="categories text">משקאות</option>
+                        <option value="4" class="categories text">סלטים ומרקים</option>
+                        <option value="5" class="categories text">קינוחים ועוגות</option>
+                        <option value="6" class="categories text">תוספות</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="level" class="text">רמת קושי</label>
+                    <select name="level" id="level" required>
+                        <option value="1" class="level text">קל</option>
+                        <option value="2" class="level text">בינוני</option>
+                        <option value="3" class="level text">קשה</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="time" class="text">זמן הכנה בדקות</label>
+                    <input type="number" name="time" id="time" class="text">
+                </div>
+            </div>
+            <div>
+                <label for="products" class="text">מצרכים</label>
+                <textarea name="products" id="products" class="text" required></textarea>
+                <label for="instructions" class="text">הוראות</label>
+                <textarea name="instructions" id="instructions" class="text" required></textarea>
+            </div>
+            <label for="file">צרף תמונה</label>
+            <input type="file" name="file" id="file"><br>
+            
+            <button>שליחה</button>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <img src="/images/styleImages/לוגו לבן.png" alt="">
+            <p>הרשמו לניוזלטר והשארו מעודכנים</p>
+            <form>
+                <input type="email">
+                <button type="submit">שלח</button>
+            </form>
+            <p>בהצטרפות לניוזלטר הנני מאשר/ת קבלת תוכן פרסומי</p>
+        </div>
+    </footer>
+    <script src="/Data/recipes.json"></script>
+    <script src="/pages/header&footer/header&footer.js"></script>
+</body>
+
+</html>

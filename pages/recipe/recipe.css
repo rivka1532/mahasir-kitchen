@@ -1,0 +1,112 @@
+#imgRecipe{
+    position: relative;
+    text-align: center;
+    padding-block: 50px 30px;
+    margin-bottom: 100px;
+    background: url(/images/styleImages/רקע.png) center bottom / 100vw 400px no-repeat;
+}
+#imageRecipe{
+    border-radius: 30px;
+    width: 850px;
+    max-width: 98%;
+    height: 720px;
+    /* box-shadow: 0px 0px 5px 0px rgb(133, 123, 123); */
+    object-fit: cover;
+}
+#imgRecipe a{
+    position: absolute;
+}
+#nameResipe{
+    font-size: 50px;
+    color: white;
+    margin-top: 1%;
+}
+#recipe{
+    margin: 0%;
+    color: #f6656f;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px 20px;
+    transform: translateY(-25px);
+    box-shadow: 1px 1px 3px 0px rgb(161, 151, 151);
+}
+#P{
+    margin: 60px;
+    background-color: beige;
+    width: 400px;
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+    transform: rotate(3deg);
+    box-shadow: 0px 0px 10px 0px rgb(161, 151, 151);
+}
+#I{
+    margin: 50px;
+    width: 1000px;
+}
+li{
+    border-bottom: solid 1px rgb(96, 96, 96);
+    line-height: 1.5;
+    font-size: 20px;
+}
+#taimer{
+    height: 180px;
+    width: 330px;
+    padding-inline: 15px;
+    border-radius: 20px;
+    margin: 40px;
+    background-color: #2d3056;
+}
+#taimer>div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#taimer>h1>img{
+    width: 55px;
+    transform: translateY(10px);
+}
+#taimer>h1{
+    color: white;
+    font-weight: 100;
+    font-size: 27px;
+}
+#taimer>div>img{
+    margin: 5px;
+    width: 40px;
+}
+#taimer div p{
+    font-size: larger;
+    color: white;
+}
+#taimer div div img{
+    width: 15px;
+}
+#taimer div div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#taimer div div p{
+    background-color: #1d2048;
+    font-size: 25px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0px;
+}
+.heart{
+    width: 30px;
+    position: absolute;
+    z-index: 2;
+    background-color: #1d2048;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
